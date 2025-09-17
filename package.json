@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "start": "npx -y @notionhq/notion-mcp-server --transport http --port $PORT"
+    "start": "npx -y @notionhq/notion-mcp-server --transport sse --path /sse --port $PORT"
   }
 }
