@@ -1,0 +1,7 @@
+{
+  "name": "notion-mcp-on-render",
+  "private": true,
+  "scripts": {
+    "start": "npx -y @notionhq/notion-mcp-server --transport http --port $PORT"
+  }
+}
